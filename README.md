@@ -1,2 +1,33 @@
-# LiveLog-releases
-LiveLog Android APK distribution. Application source code is maintained separately.
+# LiveLog Android版
+
+会話を文字に。英語は日本語に。
+
+Android 10以降向けの文字起こし・日英翻訳アプリです。
+
+- [紹介・使い方・Lite/Proについて](https://stepn.jp/livelog-app/)
+- [APKのダウンロード](https://github.com/yusuke982/LiveLog-releases/releases)
+
+## インストール・更新
+
+Release内の `LiveLog.apk` をダウンロードして開いてください。GitやGitHubアカウントは必要ありません。
+更新時はアプリを削除せず、APKで上書きしてください。同一署名の版であれば会話・設定を引き継ぎます。
+
+現在は先行版です。初回はAndroidの「この提供元を許可」が必要な場合があります。
+
+## 任意の自動更新
+
+ObtainiumへこのリポジトリのURLを登録できます。先行版を取得する場合はプレリリースを含める設定を有効にしてください。
+Shizuku連携は任意です。Shizukuを使わない場合、インストールの確認操作が必要になる場合があります。
+
+## 公開範囲
+
+このリポジトリは配布専用です。アプリ本体のソースコードは公開していません。
+GitHubが表示する「Source code」のZIP/TARには、この配布用リポジトリのREADME等だけが含まれます。
+APK・SHA-256チェックサム・バージョン情報を配布します。
+
+## データの取り扱い
+
+ローカル処理を基本とし、Groqは利用者が自分のAPIキーを設定して選んだ場合に利用します。
+端末内の会話やAPIキーはAPKに含まれません。詳細はアプリ内のプライバシー説明をご確認ください。
+
+アプリ・同梱モデル等の権利と利用条件はそれぞれの提供元に帰属します。配布物内のNOTICE等をご確認ください。
