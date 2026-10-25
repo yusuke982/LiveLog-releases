@@ -1,0 +1,7 @@
+{
+  "id": "jp.livelog.android",
+  "url": "https://github.com/yusuke982/LiveLog-releases",
+  "author": "yusuke982",
+  "name": "LiveLog",
+  "additionalSettings": "{\"includePrereleases\":true,\"includeDrafts\":false,\"apkFilterRegEx\":\"^LiveLog\\\\.apk$\"}"
+}
